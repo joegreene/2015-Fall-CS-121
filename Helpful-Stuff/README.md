@@ -20,6 +20,7 @@ IDEs & Compilers__*__ (note at bottom):
 - XCode (for apple users): https://developer.apple.com/xcode/
 
 Text Editors (mostly for those working outside of an IDE like Visual Studio or XCode):
+- Anything with the ability to show line numbers (and syntax highlighting)
 - Emacs (if you're up for the challenge; great payoff): http://www.gnu.org/software/emacs/tour/
 - Notepad++ (windows users should use this to replace notepad/wordpad): https://notepad-plus-plus.org/
 - Sublime Text Editor (for apple users; costs money but I heard it's worth the price): http://www.sublimetext.com/

@@ -1,5 +1,5 @@
-Helpful Stuff Section
-=====================
+Helpful Stuff
+=============
 
 This section of the repository is for listing anything I find that might be considerably useful for you guys. The list is 
 tentative as I'll probably find more useful items during the semester as well.
@@ -15,7 +15,7 @@ __Android Apps__:
 
 __IDEs & Compilers*__ (note at bottom):
 - [__CodeBlocks__](http://www.codeblocks.org/): Somewhat minimalistic. Not much personal experience with this, but it includes g++ (mentioned below)
-- [__g++__](http://www.horstmann.com/bigcpp/help/gnuwindows/): Terminal-based and super minimalistic; set it up as a challenge. (link in title is for Windows users)
+- [__g++__](http://www.horstmann.com/bigcpp/help/gnuwindows/): Terminal-based and super minimalistic; set it up as a challenge. (link in title is for Windows users to install cygwin & g++)
   - Mac OS X users should install [__XCode__](https://developer.apple.com/xcode/) (comes with g++)
   - Linux users run `sudo apt-get build-essential` in a terminal window
 - [__Visual Studio Express__](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx): I prefer 2010/2012 myself, although I'm certain we will work with 2013 unfortunately

@@ -1,7 +1,7 @@
 2015-Fall-CS-121
 ================
 
-Work used during the SI Portion of Professor TODO's Section 01 CPSC 121 Class, Fall 2015
+Work used during the SI Portion of Dr. Siska's Section 01/02 CPSC 121 Class, Fall 2015
 
 __Meeting Times__: 
 - Tuesdays: 1:00 - 2:00PM @ CASECS (CS-201) 

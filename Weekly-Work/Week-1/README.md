@@ -2,24 +2,16 @@
 
 ## Contents
 - [Intro](#intro)
-- [Tuesday](#tuesday)
-  - [TODO](#todo)
 - [Thursday](#thursday)
-  - [TODO2](#todo2)
+  - [TODO](#todo)
     
 ### Intro
-Listed are the activities worked on during the SI class on Tuesday (08/26) and Thursday (08/28).
-
-### Tuesday
-Topics discussed: ...
-
-#### TODO
-TODO SECTION
+Listed are the activities worked on during the SI class on Thursday (08/28).
 
 ### Thursday
 Topics discussed: ...
 
-#### TODO2
+#### TODO
 TODO SECTION
 
 -------------------------------------------------------------------------------

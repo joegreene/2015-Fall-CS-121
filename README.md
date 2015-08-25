@@ -11,8 +11,9 @@ __Meeting Times__: (you might be asked to sign in/out as it is a custom of the C
 __Extra Information__:
 - If you need to contact me my email is located at the bottom of this page (and all other pages in this repository). 
 - I can also be contacted after class (I normally sit in the back, far left). 
-- You can ask me any questions regarding the material presented in the SI (i.e. not homework-related).
-- Most (if not all) updates to this repository are done between Thursday evening and Friday evening. If you've come to check for updates on the weekly work, this means that the best time to check it out is either midday Friday (or if I'm really lagging, Saturday).
+- You can ask me any questions about the course as long as they are not homework related.
+- Most (if not all) updates to this repository are done between Thursday evening and Friday evening. 
+  - The best time to check for updates is either midday Friday (or if I'm really lagging, Saturday).
 
 I look forward to working with you guys this semester!
 

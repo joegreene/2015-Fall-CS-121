@@ -13,9 +13,9 @@ Below is the Thursday work. All topics discussed can be easily viewed by skimmin
 
 #### Worksheets
 We only talked about material that was on the two worksheets. Both worksheets (and solutions) are accessible 
-by clicking on the respective files in the files area of this page, or by clicking [here (worksheet one)](CS121 SI - Week 1 - Part One.docx), 
-[here (worksheet two)](CS121 SI - Week 1 - Part Two.docx), [here (solutions for part 1)](CS 121 SI - Week 1 - Part One Solutions), 
-and [here(solutions for part 2)](CS 121 SI - Week 1 - Part Two Solutions).
+by clicking on the respective files in the files area of this page, or by clicking [here (worksheet one)](<Worksheets/CS121 SI - Week 1 - Part One.docx>), 
+[here (worksheet two)](<Worksheets/CS121 SI - Week 1 - Part Two.docx>), [here (solutions for part 1)](<Worksheets/CS 121 SI - Week 1 - Part One Solutions>), 
+and [here(solutions for part 2)](<Worksheets/<CS 121 SI - Week 1 - Part Two Solutions>). Click "view raw" to download the file.
 
 -------------------------------------------------------------------------------
 

@@ -1,0 +1,100 @@
+The best way to view this page is by enabling C++ highlighting in Notepad++ or whichever code viewing 
+program/website you are using.
+
+The following solution is a copy and paste of one of my previous semester SI classes:
+
+#2 Solution:
+
+`for`:
+- Pretest loop (conditional check done BEFORE body is ran)
+- Done a specific amount of times (usually)
+- Good for repeating statements when it's known how many times they should be ran
+
+`while`:
+- Pretest loop
+- Done an uncertain amount of times usually (0 to infinity; however long the conditional takes to be false)
+- Good for when you do not have a specific amount of times you need to loop some code
+
+`do-while`:
+- Post-test loop (conditional check done AFTER body is ran)
+- Done at least one time (1 to infinity, unless developed otherwise, as shown below)
+- Good for user input and menu-driven programming
+
+__BONUS:__ Yes. Examples are types below:
+
+`for` loops (assume `gnum` is an `int` taken from user input that is always greater than or equal to 0):
+```C++
+  // initial for loop (for comparison)
+  for(int i = 0; i < gnum; ++i)
+  {
+    //... some code here ...
+  }
+  
+  // while replacing for
+  int i = 0;
+  
+  while(i < gnum)
+  {
+    // ...some code here...
+    ++i; // update at end
+  }
+  
+  // do-while replacing for
+  int i = 0;
+  
+  do
+  {
+    if(i < gnum)  //required if gnum is at start (meaning the conditional check is false at the start) 
+    {
+      // ... some code here ...
+      ++i;        // update at end
+    }
+  }while(i < gnum);
+```
+
+The other replacements can be made by moving around the above examples.
+
+I want to emphasize replacing a `do-while` loop with a `while` loop however:
+```C++
+  // initial do-while; grabs an int that's between 0 and 30 without fail-checking
+  int num;
+  bool valid = false; // this removes the need to have "valid = false;" in the "else"
+  
+  do
+  {
+    cout << "Enter a number between 0 and 30: ";
+    cin >> num;
+    
+    if(0 <= num && 30 >= num) // if num is between 0 and 30
+    {
+      valid = true; // to jump out of the loop
+    }
+    else
+    {
+      cout << "Invalid input.\n";
+    ]
+    
+  }while(!valid); // while valid input has not been entered
+  
+  // while replacing do-while
+  bool valid = false;
+  
+  while(!valid)
+  {
+    cout << "Enter a number between 0 and 30: ";
+    cin >> num;
+    
+    if(0 <= num && 30 >= num)
+    {
+      valid = true;
+    }
+    else
+    {
+      cout << "Invalid input.\n";
+    }
+  }
+```
+
+Note here that you can easily replace a `do-while` loop with a `while` loop by initializing a variable at the start. This 
+pretty much renders the `do-while` unnecessary. You should know how to use them regardless, as they're commonly used when doing stuff 
+like making menus or user input (as shown above).

@@ -10,7 +10,7 @@ As it is __extremely__ important that you guys get where this is, below is an im
 
 I post all my material in [directories](http://www.computerhope.com/jargon/d/director.htm) of this 
 [repository](http://www.merriam-webster.com/dictionary/repository). Whenever I refer to files/folders 
-in the weekly folders, they are always in that same area.
+in the weekly folders, they are always in the file listing (named according to their purpose).
 
 __Meeting Times__: (if asked to sign-in at the door tell them you're going to my SI)
 - Tuesdays:  1:00 - 2:15PM @ CASECS (CS-201; I'll be at the whiteboard, middle table)

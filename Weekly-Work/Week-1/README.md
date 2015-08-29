@@ -3,16 +3,19 @@
 ## Contents
 - [Intro](#intro)
 - [Thursday](#thursday)
-  - [TODO](#todo)
+  - [Worksheets](#worksheets)
     
 ### Intro
 Listed are the activities worked on during the SI class on Thursday (08/28).
 
 ### Thursday
-Topics discussed: ...
+Below is the Thursday work. All topics discussed can be easily viewed by skimming the worksheets for this week.
 
-#### TODO
-TODO SECTION
+#### Worksheets
+We only talked about material that was on the two worksheets. Both worksheets (and solutions) are accessible 
+by clicking on the respective files in the files area of this page, or by clicking [here (worksheet one)](CS121 SI - Week 1 - Part One.docx), 
+[here (worksheet two)](CS121 SI - Week 1 - Part Two.docx), [here (solutions for part 1)](CS 121 SI - Week 1 - Part One Solutions), 
+and [here(solutions for part 2)](CS 121 SI - Week 1 - Part Two Solutions).
 
 -------------------------------------------------------------------------------
 

@@ -6,11 +6,10 @@ Work used during the SI Portion of Dr. Siska's Section 01/02 CPSC 121 Class, Fal
 __Meeting Times__: (you might be asked to sign in/out as it is a custom of the CASECS room)
 - Tuesdays:  1:00 - 2:15PM @ CASECS (CS-201; I'll be at the whiteboard, middle table)
 - Thursdays: 1:00 - 2:15PM @ CASECS (CS-201; I'll be at the whiteboard, middle table)
-- Third session TBA
 
 __Extra Information__:
 - If you need to contact me my email is located at the bottom of this page (and all other pages in this repository). 
-- I can also be contacted after class (I normally sit in the back, far left). 
+- I can also be contacted after class (I normally sit in the back). 
 - You can ask me any questions about the course as long as they are not homework related.
 - Most (if not all) updates to this repository are done between Thursday evening and Friday evening. 
   - The best time to check for updates is either midday Friday (or if I'm really lagging, Saturday).

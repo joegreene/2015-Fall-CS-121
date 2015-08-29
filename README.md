@@ -18,9 +18,9 @@ __Meeting Times__: (if asked to sign-in at the door tell them you're going to my
 
 __Extra Information__:
 - If you need to contact me my email is located at the bottom of this page (and all other pages in this repository). 
-- I can also be contacted after class (I normally sit in the back). 
+- I can also be contacted after class (I sit in the back). 
 - You can ask me any questions about the course as long as they are not homework related.
-- Most (if not all) updates to this repository are done between Thursday evening and Friday evening. 
+- All updates to this repository are done between Thursday evening and Friday night. 
   - The best time to check for updates is either midday Friday (or if I'm really lagging, Saturday).
 
 I look forward to working with you guys this semester!

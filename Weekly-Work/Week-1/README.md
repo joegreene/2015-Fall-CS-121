@@ -13,9 +13,11 @@ Below is the Thursday work. All topics discussed can be easily viewed by skimmin
 
 #### Worksheets
 We only talked about material that was on the two worksheets. Both worksheets (and solutions) are accessible 
-by clicking on the respective files in the files area of this page, or by clicking [here (worksheet one)](<Worksheets/CS121 SI - Week 1 - Part One.docx>), 
-[here (worksheet two)](<Worksheets/CS121 SI - Week 1 - Part Two.docx>), [here (solutions for part 1)](<Worksheets/CS 121 SI - Week 1 - Part One Solutions>), 
-and [here(solutions for part 2)](<Worksheets/<CS 121 SI - Week 1 - Part Two Solutions>). Click "view raw" to download the file.
+by clicking on the respective files in the files area of this page. Click "view raw" to download the file.
+
+If you're having issues finding the folders, look at the image below:
+
+![File Location Image](/master/Weekly-Work/Week-1/file-loc-help.png)
 
 -------------------------------------------------------------------------------
 

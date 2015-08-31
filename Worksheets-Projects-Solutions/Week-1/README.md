@@ -17,7 +17,7 @@ by clicking on the respective files in the files area of this page. Click "view 
 
 If you're having issues finding the folders, look at the image below:
 
-![File Location Image](/Weekly-Work/Week-1/file-loc-help.png)
+![File Location Image](/Worksheets-Projects-Solutions/Week-1/file-loc-help.png)
 
 -------------------------------------------------------------------------------
 

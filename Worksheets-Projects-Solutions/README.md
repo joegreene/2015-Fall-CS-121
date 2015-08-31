@@ -1,4 +1,4 @@
-Weekly Work
+Worksheets, Projects, & Solutions
 ===========
 
 This is the main directory for all the activities that we have gone over. I fill out the "activity" parts after the SI session has occurred (because I won't know what we actually covered until the session is finished).

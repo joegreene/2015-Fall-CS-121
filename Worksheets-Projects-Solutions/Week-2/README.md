@@ -10,7 +10,7 @@ Listed are the activities worked on during the SI class on Tuesday (09/01) and T
 
 To make the most out of the program solutions I provide, compile the actual programs through your 
 favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g++), or by an 
-online website such as [www.ideone.com](www.ideone.com) (choose C++14 for the language to compile in).
+online compiler such as www.ideone.com (choose C++14 for the language to compile in).
 
 ### Tuesday
 We recapped last week's worksheet and talked a bit about how to create functions.

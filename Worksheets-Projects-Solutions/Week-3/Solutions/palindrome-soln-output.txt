@@ -1,0 +1,7 @@
+'racecar' is a palindrome.
+'A but tuba' is a palindrome.
+'b' is a palindrome.
+'palindrome' is not a palindrome.
+'Computer' is not a palindrome.
+'This is not a palindrome' is not a palindrome.
+'A toyota's a toyota' is a palindrome.

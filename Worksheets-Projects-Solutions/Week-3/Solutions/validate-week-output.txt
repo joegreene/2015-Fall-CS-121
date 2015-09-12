@@ -1,34 +1,33 @@
 DISCLAIMER: Empty output means no errors
 
-Test 1: 
+Test 1: 11, 1, 1970
 
-Test 2: 
+Test 2: 2, 29, 1900
 Invalid year given (must be between 1812 and 2012).
 Invalid day given for given month/year (not a leap year).
 
-Test 3: 
+Test 3: 2, 29, 2100
 Invalid day given for given month/year (not a leap year).
 
-Test 4: 
+Test 4: 12, -1, 1200
 Invalid year given (must be between 1812 and 2012).
 Invalid day given for given month (must be between 01 - 31).
 
-Test 5: 
+Test 5: -1, 31, 2096
 Invalid month given (must be between 01 - 12).
 
-Test 6: 
+Test 6: 13, 5, -1440
 Invalid year given (must be between 1812 and 2012).
 Invalid month given (must be between 01 - 12).
 
-Test 7: 
+Test 7: 9001, 9002, 1999
 Invalid month given (must be between 01 - 12).
 Invalid day given for any month (out of range).
 
-Test 8: 
+Test 8: -49, -50, 1969
 Invalid year given (must be between 1812 and 2012).
 Invalid month given (must be between 01 - 12).
 Invalid day given for any month (out of range).
 
-Test 9: 
-Invalid day given for given month (must be between 01 - 28).
+Test 9: 2, 29, 2400
 

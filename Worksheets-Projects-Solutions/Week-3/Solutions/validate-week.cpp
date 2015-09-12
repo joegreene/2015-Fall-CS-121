@@ -35,23 +35,23 @@ int main()
   
   cout << "DISCLAIMER: Empty output means no errors\n";
   
-  cout << "\nTest 1: \n";
+  cout << "\nTest 1: 11, 1, 1970\n";
   verifyDateInput(11, 1, 1970);  // valid date
-  cout << "\nTest 2: \n";
+  cout << "\nTest 2: 2, 29, 1900\n";
   verifyDateInput(2, 29, 1900);  // invalid year
-  cout << "\nTest 3: \n"; 
+  cout << "\nTest 3: 2, 29, 2100\n"; 
   verifyDateInput(2, 29, 2100);  // invalid day (non leap year)
-  cout << "\nTest 4: \n";
+  cout << "\nTest 4: 12, -1, 1200\n";
   verifyDateInput(12, -1, 1200); // dd and yyyy wrong
-  cout << "\nTest 5: \n";
+  cout << "\nTest 5: -1, 31, 2096\n";
   verifyDateInput(-1, 31, 2096); // mm wrong
-  cout << "\nTest 6: \n";
+  cout << "\nTest 6: 13, 5, -1440\n";
   verifyDateInput(13, 5, -1440); // mm and yyyy wrong
-  cout << "\nTest 7: \n";
+  cout << "\nTest 7: 9001, 9002, 1999\n";
   verifyDateInput(9001, 9002, 1999); // mm and dd wrong
-  cout << "\nTest 8: \n";
+  cout << "\nTest 8: -49, -50, 1969\n";
   verifyDateInput(-49, -50, 1969);   // mm, dd, and yyyy wrong
-  cout << "\nTest 9: \n";
+  cout << "\nTest 9: 2, 29, 2400\n";
   verifyDateInput(2, 29, 2400);  // valid date (leap year)
   cout << "\n";
   
@@ -124,8 +124,9 @@ bool verifyDateInput(int mm, int dd, int yyyy)
       cout << "Invalid day given for given month/year (not a leap year).\n";
       validity = false;
     }
-    else if (!day_between_28) 
+    else if (!day_between_28 && dd != 29)
     {
+      cout << isLeapYear(yyyy) << std::endl;
       cout << "Invalid day given for given month (must be between 01 - 28).\n";
       validity = false;
     } 

@@ -13,7 +13,7 @@ favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g+
 online compiler such as www.ideone.com (choose C++14 for the language to compile in).
 
 ### Tuesday
-TODO
+We went over the entire worksheet for this week.
 
 ### Thursday
 TODO

@@ -28,7 +28,6 @@ As all awesome programmers do, let's write up some
 code, to correct mistakes, and make __more better__ code in general:
 
 getFactorial:
--------------
 ```
 int getFactorial(int n):
     if n is 0 or n is 1: (this is our simple case which doesn't need any real computation)
@@ -39,7 +38,6 @@ int getFactorial(int n):
 ```
 
 memoFact:
----------
 ```
 int memoFact(int n):
     create a static list for storing n and its factorial (n_list and fact_list, which are parallel)
@@ -60,7 +58,6 @@ int memoFact(int n):
 ```
 
 computeFact:
-------------
 ```
 int computeFact(int n):
     set integer fact to 1
@@ -88,7 +85,6 @@ NOTE: I will try to find a way to include color coding. For now, you'll have to 
       
       
 getFactorial:
--------------
 ```C++
 int getFactorial(int n)
 {
@@ -105,7 +101,6 @@ int getFactorial(int n)
 ```
 
 memoFact:
----------
 ```C++
 int memoFact(int n)
 {
@@ -148,7 +143,6 @@ int memoFact(int n)
 ```
 
 computeFact:
-------------
 ```C++
 int computeFact(int n)
 {
@@ -170,8 +164,7 @@ That's all there is to it.
 
 Below are the list of footnotes I mentioned in the C++ translation section.
 
-FOOTNOTE #1:
-------------
+__FOOTNOTE #1__:
 
   If we wanted to, we could do one of two things:
     1. Make more if-checks for small factorial values (e.g. 2! = 2, 3! = 6, etc.) to improve 
@@ -192,8 +185,7 @@ FOOTNOTE #1:
        }
        ```
          
-FOOTNOTE #2:
-------------
+__FOOTNOTE #2__:
 
   MAX_STORAGE is an arbitrary value and is determined by tests. It represents the maximum number of 
   factorial values you wish to store.
@@ -202,16 +194,14 @@ FOOTNOTE #2:
   computed already will eventually take more time than actually computing the factorial!
   
   For instance, assume MAX_STORAGE is 40 and we've computed every factorial except 2!. To compute 
-  2!, our program would take this many steps:
-  
-        ->num_steps = num_steps_to_check_storage_list + num_steps_compute_factorial<-
-        
-        ->num_steps = 40 + 2 = 42<-
-        
+  2!, our program would take...
+  ```
+    num_steps = num_steps_to_check_storage_list + num_steps_compute_factorial    
+    num_steps = 40 + 2 = 42
+  ```      
   Which is a heck of a lot more than the two steps originally needed to compute 2!.
   
-FOOTNOTE #3:
-------------
+__FOOTNOTE #3__:
   
   __FIRSTMOST__: To best explain this, assume in the below that `MAX_STORAGE = 3`.
   
@@ -274,3 +264,9 @@ FOOTNOTE #3:
   
   Hopefully this all helps. I know the above is a lot, but with practice and effort you'll be making 
   awesome code (for both yourself and others).
+
+-------------------------------------------------------------------------------
+
+Copyright &copy; 2015 Joseph Greene <joeisgreene@csu.fullerton.edu>  
+Released under [The MIT License] (http://opensource.org/licenses/MIT)  
+Project located at <https://github.com/joegreene/2015-Spring-CS-121>

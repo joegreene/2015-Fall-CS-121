@@ -14,13 +14,15 @@ memoization is, and overall learn a nifty trick to optimize function computation
 In this example, we'll be using the good 'ol factorial function. For a fairly clean and easy to 
 follow along memoized factorial computation, we'll need three functions:
 
-- int getFactorial(int n); // for user (easier to remember/type this than memoFact)
-- int memoFact(int n);     // for programmer and efficiency-boost (returns factorial)
-- int computeFact(int n);  // for actually computing a factorial
+- `int getFactorial(int n);` // for user (easier to remember/type this than memoFact)
+- `int memoFact(int n);`     // for programmer and efficiency-boost (returns factorial)
+- `int computeFact(int n);`  // for actually computing a factorial
 
 Like any program, the two major steps in writing this code will be:
-- Pseudocode
+- [Pseudocode](http://www.unf.edu/~broggio/cop2221/2221pseu.htm) 
 - C++ translation
+
+And footnotes for the C++ translation are included (to explain hairy parts).
 
 ### Pseudocode
 
@@ -169,34 +171,35 @@ __FOOTNOTE #1__:
 
   If we wanted to, we could do one of two things:
   
-    1. Make more if-checks for small factorial values (e.g. 2! = 2, 3! = 6, etc.) to improve 
+  1. Make more if-checks for small factorial values (e.g. 2! = 2, 3! = 6, etc.) to improve 
        computation time
        
-    2. Replace getFactorial with the following:
-       ```C++
-       int getFactorial(int n)
+  2. Replace getFactorial with the following:
+     
+     ```C++
+     int getFactorial(int n)
+     {
+       switch(n) // no need for breaks since the return escapes the function immediately)
        {
-         switch(n) // no need for breaks since the return escapes the function immediately)
-         {
-           case 0: // fall-through to case 1
-           case 1: return 1;
-           case 2: return 2;
-           case 3: return 6;
-           //...any more factorial values we want to insert ourselves...
-           default: return memoFact(n); // for all factorial values we don't want to compute
-         }
+         case 0: // fall-through to case 1
+         case 1: return 1;
+         case 2: return 2;
+         case 3: return 6;
+         //...any more factorial values we want to insert ourselves...
+         default: return memoFact(n); // for all factorial values we don't want to compute
        }
-       ```
+     }
+     ```
          
 __FOOTNOTE #2__:
 
-  MAX_STORAGE is an arbitrary value and is determined by tests. It represents the maximum number of 
+  `MAX_STORAGE` is an arbitrary value and is determined by testing. It represents the maximum number of 
   factorial values you wish to store.
   
-  If we have a large value for MAX_STORAGE, over time checking to see if a factorial has been 
+  If we have a large value for `MAX_STORAGE`, over time checking to see if a factorial has been 
   computed already will eventually take more time than actually computing the factorial!
   
-  For instance, assume MAX_STORAGE is 40 and we've computed every factorial except 2!. To compute 
+  For instance, assume `MAX_STORAGE` is 40 and we've computed every factorial except 2!. To compute 
   2!, our program would take...
   ```
     num_steps = num_steps_to_check_storage_list + num_steps_compute_factorial    

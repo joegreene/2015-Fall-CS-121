@@ -14,13 +14,13 @@ memoization is, and overall learn a nifty trick to optimize function computation
 In this example, we'll be using the good 'ol factorial function. For a fairly clean and easy to 
 follow along memoized factorial computation, we'll need three functions:
 
-- `int getFactorial(int n);` // for user (easier to remember/type this than memoFact)
-- `int memoFact(int n);`     // for programmer and efficiency-boost (returns factorial)
-- `int computeFact(int n);`  // for actually computing a factorial
+- `int getFactorial(int n);` for user (easier to remember/type this than memoFact)
+- `int memoFact(int n);`     for programmer and efficiency-boost (returns factorial)
+- `int computeFact(int n);`  for actually computing a factorial
 
 Like any program, the two major steps in writing this code will be:
 - [Pseudocode](http://www.unf.edu/~broggio/cop2221/2221pseu.htm) 
-- C++ translation
+- C++ translation (from pseudocode)
 
 And footnotes for the C++ translation are included (to explain hairy parts).
 
@@ -28,7 +28,9 @@ And footnotes for the C++ translation are included (to explain hairy parts).
 
 As all awesome programmers do, let's write up some 
 [pseudocode](http://www.unf.edu/~broggio/cop2221/2221pseu.htm) first. That way, it's easier to plan 
-code, to correct mistakes, and make __more better__ code in general:
+code, to correct mistakes, and make __more better__ code in general.
+
+Below is my (messy) pseudocode for this problem:
 
 __getFactorial__:
 ```
@@ -43,11 +45,16 @@ int getFactorial(int n):
 __memoFact__:
 ```
 int memoFact(int n):
+
     create a static list for storing n and its factorial (n_list and fact_list, which are parallel)
-    set a boolean found_fact to false
-    create an integer return_fact
     
-    check n_list for n:
+    set a boolean found_fact to false
+    
+    create an integer return_fact, for returning n!
+        
+    create a static integer next_index for keeping track of the next index to replace
+    
+    check n_list if n exists in the list:
         if n is in n_list:
             return_fact = the corresponding position in fact_list
             found_fact = true
@@ -55,7 +62,7 @@ int memoFact(int n):
     
     if found_fact is false:
         return_fact = computeFact(n)
-        replace the oldest n and corresponding n! in n_list and fact_list to n and return_fact
+        replace the oldest n and corresponding n! in n_list and fact_list with n and return_fact
         
     return return_fact;
 ```

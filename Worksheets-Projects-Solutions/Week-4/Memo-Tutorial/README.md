@@ -5,6 +5,7 @@
 - [Pseudocode](#pseudocode)
 - [C++ translation](#c-translation)
   - [Footnotes](#footnotes)
+
 ### Intro
 
 This is a tutorial for those that want to get a better understanding of static variables, what 
@@ -27,7 +28,7 @@ As all awesome programmers do, let's write up some
 [pseudocode](http://www.unf.edu/~broggio/cop2221/2221pseu.htm) first. That way, it's easier to plan 
 code, to correct mistakes, and make __more better__ code in general:
 
-getFactorial:
+__getFactorial__:
 ```
 int getFactorial(int n):
     if n is 0 or n is 1: (this is our simple case which doesn't need any real computation)
@@ -37,7 +38,7 @@ int getFactorial(int n):
         return fact
 ```
 
-memoFact:
+__memoFact__:
 ```
 int memoFact(int n):
     create a static list for storing n and its factorial (n_list and fact_list, which are parallel)
@@ -57,7 +58,7 @@ int memoFact(int n):
     return return_fact;
 ```
 
-computeFact:
+__computeFact__:
 ```
 int computeFact(int n):
     set integer fact to 1
@@ -76,15 +77,15 @@ English, I'm not necessarily the best English speaker (then again, who is?).
 
 After the hard work of creating our pseudocode, we now translate the above to valid C++ syntax:
 
-ISSUE: Unfortunately for us, pseudocode to C++ translation is very unlikely to be 1 to 1. This means 
-       there is a high chance a C++ representation requires more lines than the pseudocode version 
-       (or, rarely, the other way around).
+__ISSUE__: Unfortunately for us, pseudocode to C++ translation is very unlikely to be 1 to 1. This means 
+           there is a high chance a C++ representation requires more lines than the pseudocode version 
+           (or, rarely, the other way around).
 
-NOTE: I will try to find a way to include color coding. For now, you'll have to guess which 
+__NOTE__: I will try to find a way to include color coding. For now, you'll have to guess which 
       portions of the C++ code matches the pseudocode (it shouldn't be too hard, hopefully).
       
       
-getFactorial:
+__getFactorial__:
 ```C++
 int getFactorial(int n)
 {
@@ -100,7 +101,7 @@ int getFactorial(int n)
 }
 ```
 
-memoFact:
+__memoFact__:
 ```C++
 int memoFact(int n)
 {
@@ -142,7 +143,7 @@ int memoFact(int n)
 }
 ```
 
-computeFact:
+__computeFact__:
 ```C++
 int computeFact(int n)
 {
@@ -167,8 +168,10 @@ Below are the list of footnotes I mentioned in the C++ translation section.
 __FOOTNOTE #1__:
 
   If we wanted to, we could do one of two things:
+  
     1. Make more if-checks for small factorial values (e.g. 2! = 2, 3! = 6, etc.) to improve 
        computation time
+       
     2. Replace getFactorial with the following:
        ```C++
        int getFactorial(int n)

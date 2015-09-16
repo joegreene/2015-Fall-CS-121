@@ -122,8 +122,7 @@ int memoFact(int n)
   int return_fact;                   // factorial value to be returned (i.e. return_fact = n!)
   
   static int real_count = 0,         // actual number of stored factorials (can be < MAX_STORAGE)
-             next_index = 0;         // holds index to place next-computed factorials in later 
-                                     // function calls
+             next_index = 0;         // holds index to place next-computed factorials in later function calls
   
   bool found_fact = false;           // for checking if n! was found in the storage lists
   
@@ -167,7 +166,8 @@ int computeFact(int n)
 }
 ```
 
-That's all there is to it.
+And that's the end of it. Might be a lot to digest, and for the hairy parts below is the 
+footnotes section.
 
 
 #### Footnotes
@@ -178,7 +178,7 @@ __FOOTNOTE #1__:
 
   If we wanted to, we could do one of two things:
   
-  1. Make more if-checks for small factorial values (e.g. 2! = 2, 3! = 6, etc.) to improve 
+  1. Make more if-checks for small factorial values (e.g. `2! = 2`, `3! = 6`, etc.) to improve 
        computation time
        
   2. Replace getFactorial with the following:
@@ -206,11 +206,12 @@ __FOOTNOTE #2__:
   If we have a large value for `MAX_STORAGE`, over time checking to see if a factorial has been 
   computed already will eventually take more time than actually computing the factorial!
   
-  For instance, assume `MAX_STORAGE` is 40 and we've computed every factorial except 2!. To compute 
+  For instance, assume `MAX_STORAGE` is 40 and we've computed 40 factorials (except `2!`). To compute 
   2!, our program would take...
   ```
     num_steps = num_steps_to_check_storage_list + num_steps_compute_factorial    
-    num_steps = 40 + 2 = 42
+    num_steps = 40 + 2 
+    num_steps = 42
   ```      
   Which is a heck of a lot more than the two steps originally needed to compute 2!.
   

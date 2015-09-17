@@ -3,7 +3,7 @@
 ## Contents
 - [Intro](#intro)
 - [Pseudocode](#pseudocode)
-- [C++ translation](#c-translation)
+- [C++ Translation](#c-translation)
   - [Footnotes](#footnotes)
 
 __WARNING__: 

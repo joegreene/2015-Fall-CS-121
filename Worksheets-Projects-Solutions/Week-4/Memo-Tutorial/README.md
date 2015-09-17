@@ -6,15 +6,15 @@
 - [C++ translation](#c-translation)
   - [Footnotes](#footnotes)
 
-### Intro
-
 __WARNING__: I added a C++ source file (`memo-fact.cpp`) where you can test the efficiency of the normal 
                 factorial versus the memoized version. I suggest only running the program 
                 and changing the value of `NUM_ITERATIONS` in the file (ignore the rest). You have 
                 been warned.
 
 __NOTE__: If you can't run the C++ source file, I also included test runs in a text file, 
-          `memo-fact-output-examples.txt`.                
+          `memo-fact-output-examples.txt`.   
+  
+### Intro             
                 
 This is a tutorial for those that want to get a better understanding of static variables, what 
 memoization is, and overall learn a nifty trick to optimize function computation.
@@ -179,7 +179,7 @@ int computeFact(int n)
 }
 ```
 
-And that's the end of it. Might be a lot to digest, and for the hairy parts below is the 
+And that's the end of it. It's a lot to digest so sorry about that. For the hairy parts, below is the 
 footnotes section.
 
 

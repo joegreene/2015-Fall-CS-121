@@ -8,6 +8,14 @@
 
 ### Intro
 
+__WARNING__: I added a C++ source file (`memo-fact.cpp`) where you can test the efficiency of the normal 
+                factorial versus the memoized version. I suggest only running the program 
+                and changing the value of `NUM_ITERATIONS` in the file (ignore the rest). You have 
+                been warned.
+
+__NOTE__: If you can't run the C++ source file, I also included test runs in a text file, 
+          `memo-fact-output-examples.txt`.                
+                
 This is a tutorial for those that want to get a better understanding of static variables, what 
 memoization is, and overall learn a nifty trick to optimize function computation.
 
@@ -142,7 +150,12 @@ int memoFact(int n)
     next_index++;                          // move next_index forward (to get to next oldest spot) 
     next_index %= MAX_STORAGE;             // READ FOOTNOTE #3
     
-    return_fact = computeFactorial(n);     // get n!
+    if(real_count < MAX_STORAGE)           // if the list isn't filled yet
+    {
+      real_count++;
+    }
+    
+    return_fact = computeFact(n);          // get n!
     fact_list[new_index] = return_fact;    // store n! into the factorial list
     n_list[new_index] = n;                 // store corresponding n value in the n-value list
   }
@@ -156,12 +169,12 @@ __computeFact__:
 int computeFact(int n)
 {
   int fact = 1;
-  while(n > 1)
-  {
-    fact*=n;
-    n--; // this is by-value so n will not be affected outside this function
-  }
   
+  for(int i = n; i > 1; --i)
+  {
+    fact*=i;
+  }
+
   return fact;
 }
 ```

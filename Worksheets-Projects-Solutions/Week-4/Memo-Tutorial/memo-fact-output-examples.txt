@@ -1,0 +1,24 @@
+NUM_ITERATIONS: 2700000
+Running first loop (no memo)...
+Time elapsed for first loop: 0.390225 seconds
+
+Running second loop (memo)...
+Time elapsed for second loop: 0.017012 seconds
+
+----------------------------------------------
+
+NUM_ITERATIONS: 27000000
+Running first loop (no memo)...
+Time elapsed for first loop: 3.88173 seconds
+
+Running second loop (memo)...
+Time elapsed for second loop: 0.152127 seconds
+
+----------------------------------------------
+
+NUM_ITERATIONS: 270000000
+Running first loop (no memo)...
+Time elapsed for first loop: 38.6584 seconds
+
+Running second loop (memo)...
+Time elapsed for second loop: 1.54408 seconds

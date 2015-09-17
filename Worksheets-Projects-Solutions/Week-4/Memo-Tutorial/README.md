@@ -6,13 +6,16 @@
 - [C++ translation](#c-translation)
   - [Footnotes](#footnotes)
 
-__WARNING__: I added a C++ source file (`memo-fact.cpp`) where you can test the efficiency of the normal 
-                factorial versus the memoized version. I suggest only running the program 
-                and changing the value of `NUM_ITERATIONS` in the file (ignore the rest). You have 
-                been warned.
+__WARNING__: 
 
-__NOTE__: If you can't run the C++ source file, I also included test runs in a text file, 
-          `memo-fact-output-examples.txt`.   
+I added a C++ source file, [memo-fact.cpp](memo-fact.cpp) where you can test the efficiency of the normal 
+factorial versus the memoized version. I suggest only running the program and changing the value of 
+`NUM_ITERATIONS` in the file (ignore the rest). You have been warned.
+
+__NOTE__: 
+
+If you can't run the C++ source file, I also included test runs in a text file, 
+[memo-fact-output-examples.txt](memo-fact-output-examples.txt).   
   
 ### Intro             
                 
@@ -23,7 +26,7 @@ In this example, we'll be using the good 'ol factorial function. For a fairly cl
 follow along memoized factorial computation, we'll need three functions:
 
 - `int getFactorial(int n);` for user (easier to remember/type this than memoFact)
-- `int memoFact(int n);`     for programmer and efficiency-boost (returns factorial)
+- `int memoFact(int n);`     for programmer and efficiency-boost (returns a stored factorial)
 - `int computeFact(int n);`  for actually computing a factorial
 
 Like any program, the two major steps in writing this code will be:

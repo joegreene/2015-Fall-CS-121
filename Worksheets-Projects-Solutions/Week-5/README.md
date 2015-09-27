@@ -16,7 +16,7 @@ online compiler such as www.ideone.com (choose C++14 for the language to compile
 We worked on the first worksheet for this week.
 
 ### Thursday
-TODO
+We reviewed the study sheet Dr. Siska posted online (prior to the exam).
 
 -------------------------------------------------------------------------------
 

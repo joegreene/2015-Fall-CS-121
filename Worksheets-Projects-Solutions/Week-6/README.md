@@ -13,10 +13,13 @@ favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g+
 online compiler such as www.ideone.com (choose C++14 for the language to compile in).
 
 ### Tuesday
-TODO
+We worked on the first worksheet for this week.
 
 ### Thursday
-TODO
+We focused on reviewing the project that was recently turned in (the card & rank guessing game).
+
+There was a second worksheet prepared for this week, but we never really got to it. For that reason, the 
+second worksheet will be put into next week's folder.
 
 -------------------------------------------------------------------------------
 

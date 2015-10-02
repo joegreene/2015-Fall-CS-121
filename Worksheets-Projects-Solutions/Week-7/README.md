@@ -1,4 +1,4 @@
-# Week 6
+# Week 7
 
 ## Contents
 - [Intro](#intro)
@@ -6,20 +6,17 @@
 - [Thursday](#thursday)
     
 ### Intro
-Listed are the activities worked on during the SI class on Tuesday (09/29) and Thursday (10/01).
+Listed are the activities worked on during the SI class on Tuesday (10/06) and Thursday (10/08).
 
 To make the most out of the program solutions I provide, compile the actual programs through your 
 favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g++), or by an 
 online compiler such as www.ideone.com (choose C++14 for the language to compile in).
 
 ### Tuesday
-We worked on the first worksheet for this week.
+TODO
 
 ### Thursday
-We focused on reviewing the project that was recently turned in (the card & rank guessing game).
-
-There was a second worksheet prepared for this week, but we never really got to it. For that reason, the 
-second worksheet will be put into next week's folder.
+TODO
 
 -------------------------------------------------------------------------------
 

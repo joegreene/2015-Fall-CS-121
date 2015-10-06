@@ -22,4 +22,4 @@ We reviewed the study sheet Dr. Siska posted online (prior to the exam).
 
 Copyright &copy; 2015 Joseph Greene <joeisgreene@csu.fullerton.edu>  
 Released under [The MIT License] (http://opensource.org/licenses/MIT)  
-Project located at <https://github.com/joegreene/2015-Spring-CS-121>
+Project located at <https://github.com/joegreene/2015-Fall-CS-121>

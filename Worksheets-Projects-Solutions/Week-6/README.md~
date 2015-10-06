@@ -1,4 +1,4 @@
-# Week 3
+# Week 6
 
 ## Contents
 - [Intro](#intro)
@@ -6,24 +6,23 @@
 - [Thursday](#thursday)
     
 ### Intro
-Listed are the activities worked on during the SI class on Tuesday (09/08) and Thursday (09/10).
-
-I found a small error with the February case of the week 3 worksheet (first problem). It's a small 
-error and shouldn't be a big issue. I added the change to the online worksheet so everything should 
-be fine.
+Listed are the activities worked on during the SI class on Tuesday (09/29) and Thursday (10/01).
 
 To make the most out of the program solutions I provide, compile the actual programs through your 
 favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g++), or by an 
 online compiler such as www.ideone.com (choose C++14 for the language to compile in).
 
 ### Tuesday
-Worked on week 3 worksheet (did code cleaning section).
+We worked on the first worksheet for this week.
 
 ### Thursday
-Worked on week 3 worksheet (did palindrome section).
+We focused on reviewing the project that was recently turned in (the card & rank guessing game).
+
+There was a second worksheet prepared for this week, but we never really got to it. For that reason, the 
+second worksheet will be put into next week's folder.
 
 -------------------------------------------------------------------------------
 
 Copyright &copy; 2015 Joseph Greene <joeisgreene@csu.fullerton.edu>  
 Released under [The MIT License] (http://opensource.org/licenses/MIT)  
-Project located at <https://github.com/joegreene/2015-Fall-CS-121>
+Project located at <https://github.com/joegreene/2015-Spring-CS-121>

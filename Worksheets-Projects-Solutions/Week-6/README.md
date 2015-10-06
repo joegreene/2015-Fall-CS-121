@@ -25,4 +25,4 @@ second worksheet will be put into next week's folder.
 
 Copyright &copy; 2015 Joseph Greene <joeisgreene@csu.fullerton.edu>  
 Released under [The MIT License] (http://opensource.org/licenses/MIT)  
-Project located at <https://github.com/joegreene/2015-Spring-CS-121>
+Project located at <https://github.com/joegreene/2015-Fall-CS-121>

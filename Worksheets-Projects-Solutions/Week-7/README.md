@@ -23,7 +23,7 @@ online compiler such as www.ideone.com (choose C++14 for the language to compile
 Worked on the worksheet and discussed a few questions about last week's lecture (on classes)
 
 ### Thursday
-TODO
+Finished the worksheet and discussed a few questions about Tuesday's lecture (namely about the ternary/conditional operator).
 
 -------------------------------------------------------------------------------
 

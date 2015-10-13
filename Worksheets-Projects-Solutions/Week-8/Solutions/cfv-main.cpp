@@ -71,13 +71,19 @@ int main()
   Questions/Problems:
   1. Fill out cfloatvector.h and cfvmain.cpp if you have not yet.
   
-  <CHECK ABOVE>
+  ANSWER: Check this file and cfloatvector.h in the solutions folder.
   
-  2. In cfvmain.cpp, are any includes required? If so, which? Explain your answer.
+  2. On the right of each line that produces output, write out what its output would be.
   
-  <CHECK ABOVE> and the reason for it is to actually use the class
+  ANSWER: Check out output.md in the solutions folder.
   
-  3. What methods, if any, would you consider useful to include with CFloatVector?
+  3. In cfvmain.cpp, are any includes required? If so, which? Explain your answer.
+  
+  ANSWER: `#include "cfloatvector.h" is required because we need it to actually use the class. The header 
+          file `cfloatvector.h` already has `#include <iostream>` in it, so any refernces to iostream in the 
+          main file are covered already.
+  
+  4. What methods, if any, would you consider useful to include with CFloatVector?
   
   Examples:
   - is_full(): see if list is full
@@ -85,14 +91,11 @@ int main()
   - back(): get last element
   - append(CFloatVector): append (i.e. add to end) another CFloatVector to another (if capable)
   
-  4. Give an example of how implementing the default constructor may look like.
+  5. Give an example of how implementing the default constructor may look like.
   
   CFloatVector::CFloatVector() : CAPACITY(100) // set default capacity to 100 or some arbitrary value
   {
     count = 0;
   }
-  
-  
-  
   
 */

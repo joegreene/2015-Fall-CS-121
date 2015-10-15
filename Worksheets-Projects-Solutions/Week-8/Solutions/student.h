@@ -10,32 +10,28 @@ using namespace std;
 
 class Student
 {
-    int id;                                // required
-    float grade;                           // required
-    string name;                           // required
-    
-    // int gradelevel                      // extra
-    // string classlist[6]                 // extra
-    // int unit_count                      // extra
+    int id;                                
+    float grade;                           
+    string name;                           
     
   public:
     // constructors/destructors
-    Student();                             // optional
-    Student(int i, float g, string n);     // to-do
-    Student::Student(const Student& s)     // to-do
-    ~Student();                            // optional
+    Student();                             
+    Student(int i, float g, string n);     
+    Student::Student(const Student& s)     
+    ~Student();                            
     
-    // getters
-    int getID();                           // to-do
-    float getGrade();                      // to-do
-    string getName();                      // to-do
+    // getters (good to have for each member variable)
+    int getID();                           
+    float getGrade();                      
+    string getName();                      
     
-    // setters
-    void setID(int i);                     // to-do
-    void setGrade(float g);                // to-do
-    void setName(string n);                // to-do
+    // setters (good to have for each member variable)
+    void setID(int i);                     
+    void setGrade(float g);                
+    void setName(string n);                
     
-    // miscellaneous methods
+    // miscellaneous methods (those not constructors/destructors, getters, or setters)
     void printSelf();                      // required
     char getLetterGrade();                 // required
 };
@@ -70,7 +66,7 @@ Student::~Student()
 {
   cout << "Exterminated student with id: " << id << endl;
 }
-    
+/*-----------------------------------------------------------------------------------------*/   
 // getters
 int Student::getID()
 {
@@ -86,7 +82,7 @@ string Student::getName()
 {
   return name;
 }
-    
+/*-----------------------------------------------------------------------------------------*/       
 // setters
 void Student::setID(int i)
 {
@@ -116,7 +112,8 @@ void Student::setName(string n)
 {
   name = n;
 }
-    
+/*-----------------------------------------------------------------------------------------*/   
+
 // miscellaneous methods
 void Student::printSelf()
 {

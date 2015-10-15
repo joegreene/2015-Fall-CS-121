@@ -8,9 +8,9 @@
 ### Intro
 Listed are the activities worked on during the SI class on Tuesday (10/13) and Thursday (10/15).
 
-__NOTE__: The solutions posted in the solutions folder are just examples and your solutions may vary.
-
-__NOTE 2__: I included an output file (`output.md`) to the solutions folder to represent my answer for question 2.
+__NOTE__: The solutions posted in the solutions folder are just examples and your solutions should vary. 
+I myself used `float grade`, `string name`, and `int id`, whereas the SI session on 10/15/2015 used 
+`double grade`, `string name`, and `char sex`.
 
 To make the most out of the program solutions I provide, compile the actual programs through your 
 favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g++), or by an 
@@ -21,7 +21,11 @@ We decided to cover over last week's worksheet again, so please head to last wee
 reference for what we worked on this week.
 
 ### Thursday
-TODO
+We worked on the worksheet that's in the worksheet folder for this week. Next week we plan on continuing 
+our work on this worksheet.
+
+__NOTE__: If you have the older worksheet designed for this week, there are no plans to refer to it 
+at the moment. If you do not know what I'm talking about, ignore this note.
 
 -------------------------------------------------------------------------------
 

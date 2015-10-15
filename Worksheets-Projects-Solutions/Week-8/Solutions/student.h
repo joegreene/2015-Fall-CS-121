@@ -57,14 +57,14 @@ Student::Student(int i, float g, string n)
   setName(n);
 }
 
-/*
+
 Student::Student(const Student& s)
 {
   id = s.id;
   grade = s.grade;
   name = s.name;
 }
-*/
+
 
 Student::~Student()
 {

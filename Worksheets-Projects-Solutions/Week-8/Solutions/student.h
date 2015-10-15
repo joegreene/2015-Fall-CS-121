@@ -18,7 +18,7 @@ class Student
     // constructors/destructors
     Student();                             
     Student(int i, float g, string n);     
-    Student::Student(const Student& s)     
+    Student(const Student& s);    
     ~Student();                            
     
     // getters (good to have for each member variable)

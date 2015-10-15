@@ -13,7 +13,7 @@ int main()
 {
   // 1. Creating a Student with no arguments, with arguments, and from an existing Student
   Student s1;
-  Student s2(1234, "George Costanza", 77.7);
+  Student s2(1234, 77.7, "George Costanza");
   Student s3(s2);
   
   // 2. Create a list of 5 Student (which represents a small classroom)

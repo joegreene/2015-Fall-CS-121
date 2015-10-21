@@ -2,6 +2,7 @@
 
 ## Contents
 - [Intro](#intro)
+  - [Those Trying File IO With XCode](#trying-file-io-with-xcode)
 - [Tuesday](#tuesday)
 - [Thursday](#thursday)
     
@@ -19,6 +20,18 @@ running the work. Remember to have `data-file.txt` in your project folder as wel
 To make the most out of the program solutions I provide, compile the actual programs through your 
 favorite IDE (e.g. Visual Studio), stand-alone compiler (if you use one, e.g. g++), or by an 
 online compiler such as www.ideone.com (choose C++14 for the language to compile in).
+
+#### Trying File IO With XCode
+I don't know if this is the best solution for doing this, but it works.
+
+1. Open your XCode project (and compile some code in it so you have a runnable executable).
+2. In the project explorer (on the right) expand the `Products` folder (the arrow should be pointing down).
+3. Right click the executable listed under `Products` and click `Show in Finder`.
+4. You should be in a `Debug` or `Release` folder. Paste your data text file (e.g. `FileArray.txt`) into this folder.
+5. Building and running your program should work now (with file input/output).*
+
+* Make sure to type the name of your file (including the `.txt` extension or whatever you set it as) or 
+else your program will complain that the file does not exist or is inaccessible. It is case-sensitive.
 
 ### Tuesday
 We created the program in the `infile` folder and postponed the worksheet for Thursday.

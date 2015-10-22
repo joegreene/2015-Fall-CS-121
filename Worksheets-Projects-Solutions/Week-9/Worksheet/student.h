@@ -62,7 +62,7 @@ Student::Student(const Student& s)
 
 Student::~Student()
 {
-  cout << "Exterminated student with id: " << id << endl;
+  //cout << "Exterminated student with id: " << id << endl;
 }
 /*-----------------------------------------------------------------------------------------*/   
 // getters

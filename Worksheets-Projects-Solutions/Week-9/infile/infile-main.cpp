@@ -32,7 +32,7 @@ int main()
   int int_list[MAX_SIZE];
   
   // Name of the file we wish to read from
-  string fname = "data-file.txt";
+  string fname = "data-file";
   
   // The number of elements we will grab from the input file
   int count = 0;

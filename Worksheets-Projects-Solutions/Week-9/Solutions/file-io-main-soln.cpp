@@ -160,6 +160,9 @@ void find_student(Student arr[], int cnt)
 
 void print_list(Student arr[], int cnt)
 {
+  cout << "\nStudent list:\n"
+       << "-------------\n";
+  
   for(int i = 0; i < cnt; ++i)
   {
     arr[i].printSelf();

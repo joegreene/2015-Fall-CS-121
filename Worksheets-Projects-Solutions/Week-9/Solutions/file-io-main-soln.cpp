@@ -1,5 +1,8 @@
+/*
+  This uses my student.h file.
+*/
 #include "student.h"
-#include <fstream>  // required for file io
+#include <fstream>   // required for file io
 
 // function prototypes
 void displayMenu();
@@ -78,6 +81,14 @@ void load_from_file(string fn, Student arr[], int& cnt, const int CAP)
       cnt++;
     }
     
+    // print last student grabbed if we reached the max
+    if( cnt == CAP )
+    {
+      cout << "File has more than or equal to 30 students. The last student grabbed was:\n";
+      arr[cnt-1].printSelf();
+      cout << endl;
+    }
+    
     infile.close(); // close file when done with it
   }
   else
@@ -92,7 +103,6 @@ void load_from_file(string fn, Student arr[], int& cnt, const int CAP)
   }
 }
 
-// to-do
 void find_student(Student arr[], int cnt)
 {
   string str_input, name_input;
@@ -148,7 +158,6 @@ void find_student(Student arr[], int cnt)
   
 }
 
-// to-do
 void print_list(Student arr[], int cnt)
 {
   for(int i = 0; i < cnt; ++i)

@@ -37,7 +37,7 @@ else your program will complain that the file does not exist or is inaccessible.
 We created the program in the `infile` folder and postponed the worksheet for Thursday.
 
 ### Thursday
-TODO
+We worked on the worksheet for this week.
 
 -------------------------------------------------------------------------------
 

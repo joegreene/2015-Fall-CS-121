@@ -9,7 +9,7 @@
 Listed are the activities worked on during the SI class on Tuesday (11/3) and Thursday (11/5).
 
 ### Tuesday
-TODO
+We worked on the first worksheet for this week.
 
 ### Thursday
 TODO

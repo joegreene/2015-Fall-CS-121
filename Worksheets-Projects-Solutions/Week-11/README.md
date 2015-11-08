@@ -12,7 +12,10 @@ Listed are the activities worked on during the SI class on Tuesday (11/3) and Th
 We worked on the first worksheet for this week.
 
 ### Thursday
-TODO
+We worked on both the first and second worksheet for this week.
+
+[This link](http://www.tutorialspoint.com/cplusplus/cpp_pointers_vs_arrays.htm) might be a considerably 
+good resource.
 
 -------------------------------------------------------------------------------
 

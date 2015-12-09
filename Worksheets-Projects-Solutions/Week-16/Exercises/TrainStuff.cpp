@@ -38,7 +38,7 @@ int Train::getEngineCarID()        // returns car ID of front train car
   }
   else
   {
-    return engine->car_num;
+    return engine->car_id;
   }
 }
 
@@ -54,7 +54,7 @@ void Train::attach(int id)             // create and attach a TrainCar to end of
   {
     // create a new car and attach to end of train
     TrainCar* car = engine;
-    
+
     // navigate to last node of linked list
     while(car->next != NULL)
     {
@@ -76,8 +76,8 @@ void Train::detachLast()              // remove last TrainCar from end of train
   {
     // one for deletion, the other for navigating to the last node
     TrainCar* car = engine;
-    TrainCar* prev = NULL;  
-    
+    TrainCar* prev = NULL;
+
     // navigate to last node of linked list
     while (car->next != NULL)
     {
@@ -103,7 +103,7 @@ void Train::printTrain()              // prints all train cars in train list
   // go through all train cars belonging to the train
   while (temp != NULL)
   {
-    cout << "Train car number: " << temp->car_num << endl;
+    cout << "Train car number: " << temp->car_id << endl;
     temp = temp->next;
   }
 }

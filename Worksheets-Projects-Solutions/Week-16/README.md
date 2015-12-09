@@ -37,7 +37,16 @@ Online References (ordering these from most recent to least recent):
 
 Worksheets (that I have posted either this semester or in a previous semester):
 - Linked Lists
-  - TBD
+  - Check out the Exercises folder for this week (you could rename the terminology in the files and you have a minimal Linked List)
+    - Terms to convert (if you want to make it look more like a LinkedList):
+      - `TrainCar` --> Node
+      - `Train` --> LinkedList
+      - `engine` --> head
+      - `attach` --> add (or push)
+      - `detachLast` --> remove (or pop)
+      - `noCars` --> isEmpty
+      - `printTrain` --> printList
+      - `car_id` --> contents (this is a general term for it)
 - `this`
   - TBD
 - Operator overloading

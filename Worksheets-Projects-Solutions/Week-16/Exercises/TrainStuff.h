@@ -12,12 +12,12 @@ class TrainCar
 {
     friend Train;   // avoid using getters/setters in Train
 
-    int car_num;
+    int car_id;
     TrainCar* next; // use this to "link" more train cars together
-  
-    TrainCar(int car_num) // leaving this as private (so only Train may use it)
+
+    TrainCar(int car_id) // leaving this as private (so only Train may use it)
     {
-      this->car_num = car_num;
+      this->car_id = car_id;
       next = NULL;
     }
 };

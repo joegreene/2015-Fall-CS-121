@@ -32,8 +32,8 @@ Online References (ordering these from most recent to least recent):
   - [Tutorial on Copy Constructors](http://www.tutorialspoint.com/cplusplus/cpp_copy_constructor.htm)
 - Inheritance
   - [Everything until multiple inheritance is fairly important (especially the table and types of inheritance parts)](http://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm)
-- Overriding Base Class Methods (i.e. polymorphism)
-  - [Small tutorial on polymorphism (why it's needed and how it works)](http://www.tutorialspoint.com/cplusplus/cpp_polymorphism.htm)
+- Overriding Base Class Methods (a type of polymorphism)
+  - [Tutorial on polymorphism](http://www.cplusplus.com/doc/tutorial/polymorphism/)
 
 Worksheets (that I have posted either this semester or in a previous semester):
 - Linked Lists
@@ -52,10 +52,10 @@ Worksheets (that I have posted either this semester or in a previous semester):
 - Operator overloading
   - TBD
 - Copy Constructors
-  - Week 7's Worksheet has this in it.
+  - Week 7's Worksheet has this in it (the `FCylinder` class)
 - Inheritance
   - TBD
-- Overriding Base Class Methods (i.e. polymorphism)
+- Overriding Base Class Methods (polymorphism)
   - TBD
 
 ### Tuesday
